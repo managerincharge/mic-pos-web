@@ -4,6 +4,38 @@
 		"selected_items":
 		[
 			[
+				"mic",
+				"mic-pos"
+			],
+			[
+				"con",
+				"connectedRef"
+			],
+			[
+				"mic-",
+				"mic-pos-web"
+			],
+			[
+				"mi",
+				"mic-pos-web"
+			],
+			[
+				"fun",
+				"fun	Function"
+			],
+			[
+				"token",
+				"tokenGenerator"
+			],
+			[
+				"Fi",
+				"FirebaseTokenGenerator"
+			],
+			[
+				"fb",
+				"fbRootRef"
+			],
+			[
 				"auth",
 				"authToken"
 			],
@@ -14,10 +46,6 @@
 			[
 				"users",
 				"usersRef"
-			],
-			[
-				"fun",
-				"function"
 			],
 			[
 				"fon",
@@ -31,15 +59,67 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "app/pos_trans/pos-trans-firebase.js",
+			"settings":
+			{
+				"buffer_size": 2772,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app.js",
+			"settings":
+			{
+				"buffer_size": 1390,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "routes/enc-dec.js",
+			"settings":
+			{
+				"buffer_size": 412,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "routes/pos-trans.js",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Jim/AppData/Roaming/Sublime Text 2/Packages/User/Side Bar.sublime-menu",
+			"settings":
+			{
+				"buffer_size": 104,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 0.0,
+		"height": 392.0,
 		"selected_items":
 		[
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Package Control: Discover Packages"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Create Binary Package File"
+			]
 		],
-		"width": 0.0
+		"width": 416.0
 	},
 	"console":
 	{
@@ -56,6 +136,26 @@
 	},
 	"file_history":
 	[
+		"/C/Users/Jim/AppData/Roaming/Sublime Text 2/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/Users/Jim/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
+		"/D/DevProjects/mic-pos-web/routes/enc-dec.js",
+		"/D/DevProjects/mic-pos/app/firebase.js",
+		"/D/DevProjects/mic-pos-web/settings/settings.production.js",
+		"/D/DevProjects/mic-pos-web/app/pos_trans/pos-trans-main.js",
+		"/D/DevProjects/mic-pos-web/app.js",
+		"/D/DevProjects/mic-pos-web/app/pos_trans/pos-trans-firebase.js",
+		"/D/DevProjects/mic-pos-web/app/pos_trans/pos-trans-firebase",
+		"/D/DevProjects/mic-pos-web/settings/settings.development.js",
+		"/D/DevProjects/mic-pos-web/app/firebase.js",
+		"/D/DevProjects/mic-pos-web/app/helper.js",
+		"/D/DevProjects/mic-pos-web/settings/index.js",
+		"/D/DevProjects/mic-pos-web/firebase/index.js",
+		"/D/DevProjects/mic-pos-web/routes/user.js",
+		"/D/DevProjects/mic-pos-web/views/index.jade",
+		"/D/DevProjects/mic-pos-web/settings/settings.global.js",
+		"/D/DevProjects/mic-pos-web/views/layout.jade",
+		"/D/DevProjects/mic-pos-web/routes/index.js",
+		"/D/DevProjects/mic-pos-web/.gitignore",
 		"/D/DevProjects/mic-pos-web/package.json",
 		"/D/DevProjects/mic-pos-server/app.js",
 		"/D/DevProjects/mic-pos-server/routes/index.js",
@@ -72,7 +172,6 @@
 		"/D/DevProjects/mic-pos-server/package.json",
 		"/C/Users/Jim/Dropbox/DevProjects/mic-pos-server/posServer.js",
 		"/C/Users/Jim/.gitconfig",
-		"/C/Users/Jim/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
 		"/C/Users/Jim/Dropbox/DevProjects/server.js",
 		"/D/NodeDemos/server.js",
 		"/D/NodeDemos/public/css/site.css",
@@ -120,8 +219,141 @@
 	"groups":
 	[
 		{
+			"selected": 4,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "app/pos_trans/pos-trans-firebase.js",
+					"settings":
+					{
+						"buffer_size": 2772,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2231,
+								2231
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app.js",
+					"settings":
+					{
+						"buffer_size": 1390,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "routes/enc-dec.js",
+					"settings":
+					{
+						"buffer_size": 412,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								404,
+								404
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "routes/pos-trans.js",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/C/Users/Jim/AppData/Roaming/Sublime Text 2/Packages/User/Side Bar.sublime-menu",
+					"settings":
+					{
+						"buffer_size": 104,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								98,
+								98
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -156,6 +388,10 @@
 		]
 	},
 	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 118.0
+	},
 	"replace":
 	{
 		"height": 0.0
@@ -171,16 +407,20 @@
 	},
 	"select_project":
 	{
-		"height": 0.0,
+		"height": 500.0,
 		"selected_items":
 		[
+			[
+				"",
+				"/D/DevProjects/mic-pos/mic-pos.sublime-project"
+			]
 		],
-		"width": 0.0
+		"width": 380.0
 	},
 	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 150.0,
+	"side_bar_width": 185.0,
 	"status_bar_visible": true
 }
