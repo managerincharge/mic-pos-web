@@ -1,5 +1,5 @@
 {
-  "engines": {"node": "0.10.5"}
+  "engines": {"node": "0.10.5"},
   "name": "mic-pos-web",
   "version": "1.0.0",
   "private": true,
