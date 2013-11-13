@@ -119,22 +119,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "package.json",
-			"settings":
-			{
-				"buffer_size": 276,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "IISNode.yml",
-			"settings":
-			{
-				"buffer_size": 44,
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -172,6 +156,10 @@
 	},
 	"file_history":
 	[
+		"/D/DevProjects/mic-pos-web/package.json",
+		"/C/Users/Jim/Desktop/node.exe",
+		"/D/DevProjects/mic-pos-web/app.js",
+		"/D/DevProjects/mic-pos-web/IISNode.yml",
 		"/D/DevProjects/mic-pos-web/app/pos_trans/pos-trans-main.js",
 		"/D/DevProjects/mic-pos-web/app/pos_trans/pos-trans-subs.js",
 		"/D/DevProjects/mic-pos-web/settings/settings.development.js",
@@ -185,13 +173,11 @@
 		"/D/DevProjects/mic-pos-web/trans.txt",
 		"/C/Users/Jim/Desktop/0013 mic-pos-2013-11-06 04-54-25-export.json",
 		"/C/Users/Jim/Desktop/saved 9999 transactions mic-pos-newTrans-export.json",
-		"/D/DevProjects/mic-pos-web/app.js",
 		"/C/Users/Jim/Desktop/single saved 9999 trans export.json",
 		"/D/DevProjects/mic-pos-web/app/pos_trans/pos-trans-config.js",
 		"/C/Users/Jim/AppData/Roaming/Sublime Text 2/Packages/User/comment_block.sublime-snippet",
 		"/D/DevProjects/mic-pos-web/routes/index.js",
 		"/D/DevProjects/mic-pos-web/views/index.jade",
-		"/D/DevProjects/mic-pos-web/package.json",
 		"/D/DevProjects/mic-pos-web/routes/enc-dec.js",
 		"/C/Users/Jim/AppData/Roaming/Sublime Text 2/Packages/User/Side Bar.sublime-menu",
 		"/C/Users/Jim/AppData/Roaming/Sublime Text 2/Packages/Default/Default (Windows).sublime-keymap",
@@ -277,63 +263,8 @@
 	"groups":
 	[
 		{
-			"selected": 1,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "package.json",
-					"settings":
-					{
-						"buffer_size": 276,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								42,
-								42
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JSON.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "IISNode.yml",
-					"settings":
-					{
-						"buffer_size": 44,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								44,
-								44
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/YAML/YAML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		},
 		{
