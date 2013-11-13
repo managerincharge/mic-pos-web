@@ -38,7 +38,7 @@ app.configure('development', function () {
 });
 
 app.configure('production', function () {
-
+	app.use(express.static(__dirname + '/../iisnode'));
 });
 
 // this is how you provide vars to jade views
