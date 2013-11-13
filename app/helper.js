@@ -1,12 +1,32 @@
 module.exports = function (settings, moment, util) {
 
-    fs = require('fs');
+    var fs = require('fs');
+    var _ = require('underscore');
+
+    // functions added to String prototype
+    String.prototype.trim = function(){
+        return this.replace(/^\s+|\s+$/g, "");
+    };
+
+    String.prototype.toCamel = function(){
+        return this.replace(/(\-[a-z])/g, function($1){return $1.toUpperCase().replace('-','');});
+    };
+
+    String.prototype.toDash = function(){
+        return this.replace(/([A-Z])/g, function($1){return "-"+$1.toLowerCase();});
+    };
+
+    String.prototype.repeat = function( num ) {
+        return new Array( num + 1 ).join( this );
+    };
 
     return {
 
         moment: moment,
 
         util: util,
+
+        _: _,
 
         settings: settings,
 
@@ -56,7 +76,7 @@ module.exports = function (settings, moment, util) {
 
         DateToStringSeqNoTime: function (date) {
             return moment(date).format('YYYY-MM-DD');
-        },
+        }
 
     };
 };

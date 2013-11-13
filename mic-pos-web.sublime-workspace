@@ -4,6 +4,74 @@
 		"selected_items":
 		[
 			[
+				"mi",
+				"micPosWebStatusRef"
+			],
+			[
+				"err",
+				"errorOccurred"
+			],
+			[
+				"tran",
+				"transArray"
+			],
+			[
+				"bus",
+				"businessDayStartTime"
+			],
+			[
+				"trans",
+				"transParsers"
+			],
+			[
+				"tr",
+				"tranDate"
+			],
+			[
+				"bu",
+				"busDateStart"
+			],
+			[
+				"get",
+				"getOrgStoreFromRef"
+			],
+			[
+				"ge",
+				"getStoreFromRef"
+			],
+			[
+				"pos",
+				"posTransMain"
+			],
+			[
+				"po",
+				"posTransMain"
+			],
+			[
+				"org",
+				"orgStore"
+			],
+			[
+				"to",
+				"toCamel"
+			],
+			[
+				"fb",
+				"fbList"
+			],
+			[
+				"status",
+				"statusRef"
+			],
+			[
+				"w",
+				"whichFb"
+			],
+			[
+				"conn",
+				"connectedRef"
+			],
+			[
 				"mic",
 				"mic-pos"
 			],
@@ -13,10 +81,6 @@
 			],
 			[
 				"mic-",
-				"mic-pos-web"
-			],
-			[
-				"mi",
 				"mic-pos-web"
 			],
 			[
@@ -30,10 +94,6 @@
 			[
 				"Fi",
 				"FirebaseTokenGenerator"
-			],
-			[
-				"fb",
-				"fbRootRef"
 			],
 			[
 				"auth",
@@ -60,50 +120,18 @@
 	"buffers":
 	[
 		{
-			"file": "app/pos_trans/pos-trans-firebase.js",
+			"file": "package.json",
 			"settings":
 			{
-				"buffer_size": 2772,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "app.js",
-			"settings":
-			{
-				"buffer_size": 1390,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "routes/enc-dec.js",
-			"settings":
-			{
-				"buffer_size": 412,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "routes/pos-trans.js",
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/Users/Jim/AppData/Roaming/Sublime Text 2/Packages/User/Side Bar.sublime-menu",
-			"settings":
-			{
-				"buffer_size": 104,
-				"line_ending": "Windows"
+				"buffer_size": 276,
+				"line_ending": "Unix"
 			}
 		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 392.0,
+		"height": 334.0,
 		"selected_items":
 		[
 			[
@@ -136,27 +164,39 @@
 	},
 	"file_history":
 	[
+		"/D/DevProjects/mic-pos-web/app/pos_trans/pos-trans-main.js",
+		"/D/DevProjects/mic-pos-web/app/pos_trans/pos-trans-subs.js",
+		"/D/DevProjects/mic-pos-web/settings/settings.development.js",
+		"/D/DevProjects/mic-pos-web/app/pos_trans/pos-trans-firebase.js",
+		"/D/DevProjects/mic-pos-web/routes/pos-trans.js",
+		"/D/DevProjects/mic-pos-web/settings/settings.production.js",
+		"/C/Users/Jim/Dropbox/Store Files - Newport/Financial/CHECKS.TXT",
+		"/C/Users/Jim/Dropbox/Store Files - Irvine/checks.txt",
+		"/D/DevProjects/mic-pos-web/app/helper.js",
+		"/D/DevProjects/mic-pos-web/app/pos_trans/pos-trans-parsers.js",
+		"/D/DevProjects/mic-pos-web/trans.txt",
+		"/C/Users/Jim/Desktop/0013 mic-pos-2013-11-06 04-54-25-export.json",
+		"/C/Users/Jim/Desktop/saved 9999 transactions mic-pos-newTrans-export.json",
+		"/D/DevProjects/mic-pos-web/app.js",
+		"/C/Users/Jim/Desktop/single saved 9999 trans export.json",
+		"/D/DevProjects/mic-pos-web/app/pos_trans/pos-trans-config.js",
+		"/C/Users/Jim/AppData/Roaming/Sublime Text 2/Packages/User/comment_block.sublime-snippet",
+		"/D/DevProjects/mic-pos-web/routes/index.js",
+		"/D/DevProjects/mic-pos-web/views/index.jade",
+		"/D/DevProjects/mic-pos-web/package.json",
+		"/D/DevProjects/mic-pos-web/routes/enc-dec.js",
+		"/C/Users/Jim/AppData/Roaming/Sublime Text 2/Packages/User/Side Bar.sublime-menu",
 		"/C/Users/Jim/AppData/Roaming/Sublime Text 2/Packages/Default/Default (Windows).sublime-keymap",
 		"/C/Users/Jim/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
-		"/D/DevProjects/mic-pos-web/routes/enc-dec.js",
 		"/D/DevProjects/mic-pos/app/firebase.js",
-		"/D/DevProjects/mic-pos-web/settings/settings.production.js",
-		"/D/DevProjects/mic-pos-web/app/pos_trans/pos-trans-main.js",
-		"/D/DevProjects/mic-pos-web/app.js",
-		"/D/DevProjects/mic-pos-web/app/pos_trans/pos-trans-firebase.js",
 		"/D/DevProjects/mic-pos-web/app/pos_trans/pos-trans-firebase",
-		"/D/DevProjects/mic-pos-web/settings/settings.development.js",
 		"/D/DevProjects/mic-pos-web/app/firebase.js",
-		"/D/DevProjects/mic-pos-web/app/helper.js",
 		"/D/DevProjects/mic-pos-web/settings/index.js",
 		"/D/DevProjects/mic-pos-web/firebase/index.js",
 		"/D/DevProjects/mic-pos-web/routes/user.js",
-		"/D/DevProjects/mic-pos-web/views/index.jade",
 		"/D/DevProjects/mic-pos-web/settings/settings.global.js",
 		"/D/DevProjects/mic-pos-web/views/layout.jade",
-		"/D/DevProjects/mic-pos-web/routes/index.js",
 		"/D/DevProjects/mic-pos-web/.gitignore",
-		"/D/DevProjects/mic-pos-web/package.json",
 		"/D/DevProjects/mic-pos-server/app.js",
 		"/D/DevProjects/mic-pos-server/routes/index.js",
 		"/D/DevProjects/mic-pos-server/routes/users.js",
@@ -186,7 +226,7 @@
 	],
 	"find":
 	{
-		"height": 0.0
+		"height": 34.0
 	},
 	"find_in_files":
 	{
@@ -201,6 +241,16 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"V",
+			"void",
+			"V",
+			"E M P T Y",
+			"########",
+			"orgStore",
+			"mic-posRootUrl",
+			"pos-trans-routes",
+			"mic-pos",
+			"mic-pos-web",
 			"javascripts"
 		],
 		"highlight": true,
@@ -213,140 +263,36 @@
 		"reverse": false,
 		"show_context": true,
 		"use_buffer2": true,
-		"whole_word": false,
+		"whole_word": true,
 		"wrap": true
 	},
 	"groups":
 	[
 		{
-			"selected": 4,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "app/pos_trans/pos-trans-firebase.js",
+					"file": "package.json",
 					"settings":
 					{
-						"buffer_size": 2772,
+						"buffer_size": 276,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2231,
-								2231
+								42,
+								42
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "app.js",
-					"settings":
-					{
-						"buffer_size": 1390,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "routes/enc-dec.js",
-					"settings":
-					{
-						"buffer_size": 412,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								404,
-								404
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "routes/pos-trans.js",
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "/C/Users/Jim/AppData/Roaming/Sublime Text 2/Packages/User/Side Bar.sublime-menu",
-					"settings":
-					{
-						"buffer_size": 104,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								98,
-								98
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JSON.tmLanguage"
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -354,6 +300,11 @@
 					},
 					"type": "text"
 				}
+			]
+		},
+		{
+			"sheets":
+			[
 			]
 		}
 	],
@@ -374,6 +325,12 @@
 				0,
 				1,
 				1
+			],
+			[
+				0,
+				1,
+				1,
+				2
 			]
 		],
 		"cols":
@@ -384,6 +341,7 @@
 		"rows":
 		[
 			0.0,
+			0.875428724087,
 			1.0
 		]
 	},
@@ -394,7 +352,7 @@
 	},
 	"replace":
 	{
-		"height": 0.0
+		"height": 62.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -421,6 +379,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 185.0,
+	"side_bar_width": 214.0,
 	"status_bar_visible": true
 }
