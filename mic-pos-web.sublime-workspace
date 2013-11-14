@@ -120,11 +120,11 @@
 	"buffers":
 	[
 		{
-			"file": "IISNode.yml",
+			"file": "package.json",
 			"settings":
 			{
-				"buffer_size": 44,
-				"line_ending": "Windows"
+				"buffer_size": 351,
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -164,10 +164,10 @@
 	},
 	"file_history":
 	[
+		"/D/DevProjects/mic-pos-web/IISNode.yml",
 		"/D/DevProjects/mic-pos-web/package.json",
 		"/C/Users/Jim/Desktop/node.exe",
 		"/D/DevProjects/mic-pos-web/app.js",
-		"/D/DevProjects/mic-pos-web/IISNode.yml",
 		"/D/DevProjects/mic-pos-web/app/pos_trans/pos-trans-main.js",
 		"/D/DevProjects/mic-pos-web/app/pos_trans/pos-trans-subs.js",
 		"/D/DevProjects/mic-pos-web/settings/settings.development.js",
@@ -276,23 +276,25 @@
 			[
 				{
 					"buffer": 0,
-					"file": "IISNode.yml",
+					"file": "package.json",
 					"settings":
 					{
-						"buffer_size": 44,
+						"buffer_size": 351,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								8,
-								8
+								344,
+								344
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/YAML/YAML.tmLanguage"
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,

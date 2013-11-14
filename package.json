@@ -12,6 +12,8 @@
     "firebase": "*",
     "firebase-token-generator": "*",
     "agenda": "*",
-    "moment": "*"
+    "moment": "*",
+    "underscore": "*",
+    "agenda": "*"
   }
 }
