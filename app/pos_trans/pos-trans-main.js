@@ -6,7 +6,6 @@ module.exports = function (helper) {
 
 	var posStoreList = helper.settings.posStoreList;
 	var micPosWebStatusRef = fb.fbList.micPosWeb.statusRef;
-	var intervals = [];
 
 	return {
 		run: run,

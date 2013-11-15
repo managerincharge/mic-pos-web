@@ -120,10 +120,18 @@
 	"buffers":
 	[
 		{
-			"file": "package.json",
+			"file": "app/pos_trans/pos-trans-parsers.js",
 			"settings":
 			{
-				"buffer_size": 351,
+				"buffer_size": 2871,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Jim/Desktop/mic-pos-web-fcf-0013-export.json",
+			"settings":
+			{
+				"buffer_size": 3176577,
 				"line_ending": "Unix"
 			}
 		}
@@ -164,11 +172,16 @@
 	},
 	"file_history":
 	[
-		"/D/DevProjects/mic-pos-web/IISNode.yml",
+		"/C/Users/Jim/Desktop/New Text Document.txt",
+		"/C/Users/Jim/Desktop/mic-pos-web-fcf-0014-export.json",
+		"/C/Users/Jim/Desktop/pos-trans-parsers.js",
+		"/D/DevProjects/mic-pos-web/app/pos_trans/pos-trans-parsers.js",
+		"/C/Users/Jim/Desktop/pos-trans-subs.js",
+		"/D/DevProjects/mic-pos-web/app/pos_trans/pos-trans-main.js",
 		"/D/DevProjects/mic-pos-web/package.json",
+		"/D/DevProjects/mic-pos-web/IISNode.yml",
 		"/C/Users/Jim/Desktop/node.exe",
 		"/D/DevProjects/mic-pos-web/app.js",
-		"/D/DevProjects/mic-pos-web/app/pos_trans/pos-trans-main.js",
 		"/D/DevProjects/mic-pos-web/app/pos_trans/pos-trans-subs.js",
 		"/D/DevProjects/mic-pos-web/settings/settings.development.js",
 		"/D/DevProjects/mic-pos-web/app/pos_trans/pos-trans-firebase.js",
@@ -177,7 +190,6 @@
 		"/C/Users/Jim/Dropbox/Store Files - Newport/Financial/CHECKS.TXT",
 		"/C/Users/Jim/Dropbox/Store Files - Irvine/checks.txt",
 		"/D/DevProjects/mic-pos-web/app/helper.js",
-		"/D/DevProjects/mic-pos-web/app/pos_trans/pos-trans-parsers.js",
 		"/D/DevProjects/mic-pos-web/trans.txt",
 		"/C/Users/Jim/Desktop/0013 mic-pos-2013-11-06 04-54-25-export.json",
 		"/C/Users/Jim/Desktop/saved 9999 transactions mic-pos-newTrans-export.json",
@@ -240,9 +252,13 @@
 	},
 	"find_state":
 	{
-		"case_sensitive": false,
+		"case_sensitive": true,
 		"find_history":
 		[
+			"\"\\\\r",
+			"/[\\s\\W]*\\r\\d\\d\\d\\/gm",
+			"/[\\s\\W]*\\r\\d\\d\\d\\",
+			"\"\\r",
 			"V",
 			"void",
 			"V",
@@ -258,42 +274,71 @@
 		"highlight": true,
 		"in_selection": false,
 		"preserve_case": false,
-		"regex": false,
+		"regex": true,
 		"replace_history":
 		[
+			"\"",
+			""
 		],
 		"reverse": false,
 		"show_context": true,
 		"use_buffer2": true,
-		"whole_word": true,
-		"wrap": true
+		"whole_word": false,
+		"wrap": false
 	},
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "package.json",
+					"file": "app/pos_trans/pos-trans-parsers.js",
 					"settings":
 					{
-						"buffer_size": 351,
+						"buffer_size": 2871,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								344,
-								344
+								1317,
+								1317
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 521.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/Users/Jim/Desktop/mic-pos-web-fcf-0013-export.json",
+					"settings":
+					{
+						"buffer_size": 3176577,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4670,
+								4670
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/JavaScript/JSON.tmLanguage",
-							"tab_size": 2,
+							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
@@ -302,11 +347,6 @@
 					},
 					"type": "text"
 				}
-			]
-		},
-		{
-			"sheets":
-			[
 			]
 		}
 	],
@@ -327,12 +367,6 @@
 				0,
 				1,
 				1
-			],
-			[
-				0,
-				1,
-				1,
-				2
 			]
 		],
 		"cols":
@@ -343,7 +377,6 @@
 		"rows":
 		[
 			0.0,
-			0.875428724087,
 			1.0
 		]
 	},
