@@ -120,18 +120,10 @@
 	"buffers":
 	[
 		{
-			"file": "app/pos_trans/pos-trans-parsers.js",
-			"settings":
-			{
-				"buffer_size": 2871,
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "/C/Users/Jim/Desktop/mic-pos-web-fcf-0013-export.json",
 			"settings":
 			{
-				"buffer_size": 3176577,
+				"buffer_size": 3230496,
 				"line_ending": "Unix"
 			}
 		}
@@ -172,18 +164,20 @@
 	},
 	"file_history":
 	[
+		"/C/Users/Jim/Desktop/mic-pos-web-fcf-0013-export.json",
+		"/D/DevProjects/mic-pos-web/app.js",
+		"/D/DevProjects/mic-pos-web/app/pos_trans/pos-trans-parsers.js",
+		"/D/DevProjects/mic-pos-web/settings/settings.development.js",
+		"/D/checks - Copy (2).txt",
 		"/C/Users/Jim/Desktop/New Text Document.txt",
 		"/C/Users/Jim/Desktop/mic-pos-web-fcf-0014-export.json",
 		"/C/Users/Jim/Desktop/pos-trans-parsers.js",
-		"/D/DevProjects/mic-pos-web/app/pos_trans/pos-trans-parsers.js",
 		"/C/Users/Jim/Desktop/pos-trans-subs.js",
 		"/D/DevProjects/mic-pos-web/app/pos_trans/pos-trans-main.js",
 		"/D/DevProjects/mic-pos-web/package.json",
 		"/D/DevProjects/mic-pos-web/IISNode.yml",
 		"/C/Users/Jim/Desktop/node.exe",
-		"/D/DevProjects/mic-pos-web/app.js",
 		"/D/DevProjects/mic-pos-web/app/pos_trans/pos-trans-subs.js",
-		"/D/DevProjects/mic-pos-web/settings/settings.development.js",
 		"/D/DevProjects/mic-pos-web/app/pos_trans/pos-trans-firebase.js",
 		"/D/DevProjects/mic-pos-web/routes/pos-trans.js",
 		"/D/DevProjects/mic-pos-web/settings/settings.production.js",
@@ -255,6 +249,7 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"\\\\r",
 			"\"\\\\r",
 			"/[\\s\\W]*\\r\\d\\d\\d\\/gm",
 			"/[\\s\\W]*\\r\\d\\d\\d\\",
@@ -277,62 +272,36 @@
 		"regex": true,
 		"replace_history":
 		[
+			"\\n",
 			"\"",
 			""
 		],
 		"reverse": false,
 		"show_context": true,
 		"use_buffer2": true,
-		"whole_word": false,
+		"whole_word": true,
 		"wrap": false
 	},
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "app/pos_trans/pos-trans-parsers.js",
-					"settings":
-					{
-						"buffer_size": 2871,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1317,
-								1317
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 521.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
 					"file": "/C/Users/Jim/Desktop/mic-pos-web-fcf-0013-export.json",
 					"settings":
 					{
-						"buffer_size": 3176577,
+						"buffer_size": 3230496,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4670,
-								4670
+								16837,
+								16837
 							]
 						],
 						"settings":
@@ -341,8 +310,8 @@
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.x": 174.0,
+						"translation.y": 864.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

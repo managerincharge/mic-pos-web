@@ -13,9 +13,9 @@ module.exports = function (helper) {
 		var tranObject = {};
 
 		// remove all blank lines
-		inp = inp.replace(/^\s*[\r\n]/gm, '');
+		inp = inp.replace(/^\s*[\r\n]+/gm, '');
 		// remove all lines with cc info
-		inp = inp.replace(/^\s*X{5,}[\s\w\/]*[\r\n]/gm,'');
+		inp = inp.replace(/^\s*X{5,}[\s\w\/]*[\r\n]+/gm,'');
 		// split transactions into an array
 		transArray = inp.split(TRAN_DELIM_1);
 		// remove transactions that are simply credit card reciepts
@@ -30,7 +30,7 @@ module.exports = function (helper) {
 		var retArray = _.map(transArray, function (tran) {
 			tranObject = {
 				"name": getName1(tran), // "YYYY-MM-DD HH:MM TTTT"
-				"trans": tran.replace(/[\r\n]+$/, '').replace(/^[\r\n]/, '')  // remove first & last end of line marker
+				"trans": tran.replace(/[\r\n]+$/, '').replace(/^[\r\n]/, '').replace(/\r/g,'\n')  // remove first & last end of line marker
 			};
 			return tranObject;
 		});
@@ -44,9 +44,9 @@ module.exports = function (helper) {
 		var tranObject = {};
 
 		// remove all blank lines
-		inp = inp.replace(/^\s*[\r\n]/gm, '');
+		inp = inp.replace(/^\s*[\r\n]+/gm, '');
 		// remove all lines with cc info
-		inp = inp.replace(/^\s*\d{8,}.\d\d\/\d\d[\s\w]*[\r\n]/gm,'');
+		inp = inp.replace(/^\s*\d{8,}.\d\d\/\d\d[\s\w]*[\r\n]+/gm,'');
 		// split transactions into an array
 		transArray = inp.split(TRAN_DELIM_1);
 		// remove transactions that are simply credit card reciepts
@@ -61,7 +61,7 @@ module.exports = function (helper) {
 		var retArray = _.map(transArray, function (tran) {
 			tranObject = {
 				"name": getName1(tran), // "YYYY-MM-DD HH:MM TTTT"
-				"trans": tran.replace(/[\r\n]+$/, '').replace(/^[\r\n]/, '')  // remove first & last end of line marker
+				"trans": tran.replace(/[\r\n]+$/, '').replace(/^[\r\n]/, '').replace(/\r/g,'\n')  // remove first & last end of line marker
 			};
 			return tranObject;
 		});
